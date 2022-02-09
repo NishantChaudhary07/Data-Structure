@@ -56,10 +56,10 @@ public class Question2 {
         //System.out.println("Enter number of test cases");
         int t = sc.nextInt();
         String arr[] = new String[t];
-        for (int i = 0; i < t; i++) {
-            while (true) {
-                int ele = sc.nextInt();
-                if (ele == -1)
+        for (int i=0;i<t;i++) {
+            while(true) {
+                int ele=sc.nextInt();
+                if (ele==-1)
                     break;
                 else
                     obj.insertion(ele);
